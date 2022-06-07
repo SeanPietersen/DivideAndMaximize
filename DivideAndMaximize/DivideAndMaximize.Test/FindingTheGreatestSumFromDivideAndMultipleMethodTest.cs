@@ -1,3 +1,4 @@
+using DivideAndMaximize.App;
 using System;
 using Xunit;
 
@@ -14,7 +15,7 @@ namespace DivideAndMaximize.Test
         [InlineData(68, new long[] { 14, 9, 26 })]
         [InlineData(371842558, new long[] { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 })]
 
-        public void DivideAndMultiplyMethodTest(long expected, long[] numbers)
+        public void DivideAndMultiplyMethodTest(int expected, long[] numbers)
         {
             //Arrange
             IFindingTheGreatestSumFromDivideAndMultipleMethod findingTheGreatestSumFromDivideAndMultipleMethod = 
